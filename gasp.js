@@ -12,7 +12,7 @@ const tl = gsap.timeline({
 gsap.utils.toArray(".parallax").forEach(layer => {
 	const depth = layer.dataset.depth;
 	const movement = -(layer.offsetHeight * depth)
-	tl.to(layer, {y: movement, ease: "none"}, 0)
+	tl.to(layer, {y: movement, ease: "linear"}, 0)
 });
 
 // Paragraphs 
