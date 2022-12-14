@@ -10,6 +10,10 @@ body {
 	color: $white;
 }
 
+::-webkit-scrollbar {
+	display: none;
+
+
 #hero {
 	height: $heroHeight;
 	overflow: hidden;
